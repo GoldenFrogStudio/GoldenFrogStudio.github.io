@@ -1,0 +1,51 @@
+p, h2, h3, h4, h1{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bump-container{
+    padding: 0 2%;
+    background-color: #005950; 
+}
+
+.bump-section-1{
+    background-image: url('../images/bg_01.png');
+}
+
+.bump-section-1 h2{
+    color: #fff;
+    font-size: 32px;
+}
+
+.bump-section-2{
+    background-image: url('../images/bg_02.png');
+}
+
+.bump-section-3{
+    background-image: url('../images/bg_03.png');
+}
+
+.bump-row{
+    padding: 30px 0;
+}
+
+.bump-row-last{
+    padding-top: 30px;
+}
+
+.bump-share-icons a{
+    font-size: 2em;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.bump-logo{
+    margin-top: -15%;
+}
+
+.bump-reviews a{
+    background: none;
+}
+
+.bump-reviews a:hover{
+    background: none;
+}
