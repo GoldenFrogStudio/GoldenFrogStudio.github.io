@@ -49,3 +49,8 @@ p, h2, h3, h4, h1{
 .bump-reviews a:hover{
     background: none;
 }
+
+.bump-video{
+    display: block;
+    margin: 0 auto;
+}
