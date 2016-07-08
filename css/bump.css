@@ -2,6 +2,10 @@ p, h2, h3, h4, h1{
     font-family: 'Quicksand', sans-serif;
 }
 
+h2{
+    font-size: 32px;    
+}
+
 .bump-container{
     padding: 0 2%;
     background-color: #005950; 
@@ -42,6 +46,10 @@ p, h2, h3, h4, h1{
     margin-top: -15%;
 }
 
+.bump-reviews p{
+    font-size: 20px;
+}
+
 .bump-reviews a{
     background: none;
 }
@@ -53,4 +61,12 @@ p, h2, h3, h4, h1{
 .bump-video{
     display: block;
     margin: 0 auto;
+}
+
+#bump-slidenav img{
+    cursor: pointer;
+}
+
+.bump-slide-selected{
+    box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
 }

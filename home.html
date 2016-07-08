@@ -5,8 +5,12 @@
         <script src="js/jquery-3.0.0.min.js"></script>
         <script src="js/uikit.min.js"></script>
         <script src="js/components/slideshow.min.js"></script>
+        <script src="js/components/slideset.js"></script>
+        <script src="js/components/slider.js"></script>
+        <script src="js/bump.js"></script>
         <link rel="stylesheet" href="css/uikit.css" />
         <link rel="stylesheet" type="text/css" href="css/bump.css">
+        <link rel="stylesheet" type="text/css" href="css/components/slider.css"></link>
         <link rel="stylesheet" type="text/css" href="css/components/slideshow.css"></link>
         <link rel="stylesheet" type="text/css" href="css/components/slidenav.css"></link>
         <link rel="stylesheet" type="text/css" href="css/components/dotnav.css"></link>
@@ -28,15 +32,15 @@
                         <a href=""><img src="images/ico_twitter.png"></a>
                     </div>
 
-                    <div class="uk-width-1-2">
-                        <img src="images/badge_googleplay.png" class="uk-float-right" style="width: 200px;">
-                    </div>
-                    <div class="uk-width-1-2 bump-badge itunes">
-                        <img src="images/badge_appstore.svg" style="width: 165px;">
+                    <div class="uk-width-1-1 uk-margin-top">
+                        <iframe width="960" height="540" src="https://www.youtube.com/embed/XQu8TTBmGhA" frameborder="0" allowfullscreen class="uk-responsive-width bump-video" ></iframe>
                     </div>
 
-                    <div class="uk-width-1-1 uk-margin-top">
-                        <iframe width="960" height="720" src="https://www.youtube.com/embed/XQu8TTBmGhA" frameborder="0" allowfullscreen class="uk-responsive-width bump-video" ></iframe>
+                    <div class="uk-width-1-2 uk-margin-top">
+                        <img src="images/badge_googleplay.png" class="uk-float-right" style="width: 200px;">
+                    </div>
+                    <div class="uk-width-1-2 bump-badge itunes uk-margin-top">
+                        <img src="images/badge_appstore.svg" style="width: 165px;">
                     </div>
 
                 </div>
@@ -44,19 +48,25 @@
         </div>
         <div class="bump-row bump-section-2">
             <div class="uk-container uk-container-center">
-                <h2>Thumbnails</h2>
-                <div class="uk-container uk-container-center">
-                <div class="uk-slidenav-position" data-uk-slideshow>
-                    <ul class="uk-slideshow">
-                            <li><img src="images/placeholder2.jpg"></li>
-                            <li><img src="images/placeholder1.jpg"></li>
-                        </ul>
-                        <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
-                        <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
-                        <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
-                            <li data-uk-slideshow-item="0"><a href=""></a></li>
-                            <li data-uk-slideshow-item="1"><a href=""></a></li>
-                        </ul>
+                <h2>Screenshots</h2>
+                <div class="uk-width-9-10 uk-align-center">
+                    <ul class="uk-slideshow" id="bump-slideshow" data-uk-slideshow>
+                        <li><img src="images/placeholder1.jpg" width="80%"></li>
+                    </ul>
+                </div>
+                <div class="uk-container uk-container-center uk-margin-top" id="bump-slidenav">
+                    <div data-uk-slideset="{default: 4}">
+                        <div class="uk-slidenav-position">
+                            <ul class="uk-grid uk-slideset uk-flex-center">
+                                <li><img src="images/placeholder1.jpg" class="bump-slide-selected"></li>
+                                <li><img src="images/placeholder2.jpg"></li>
+                                <li><img src="images/placeholder3.jpg"></li>
+                                <li><img src="images/placeholder4.jpg"></li>
+                                <li><img src="images/placeholder1.jpg"></li>
+                            </ul>
+                            <a href="" class="uk-slidenav uk-slidenav-previous" data-uk-slideset-item="previous"></a>
+                            <a href="" class="uk-slidenav uk-slidenav-next" data-uk-slideset-item="next"></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -66,26 +76,26 @@
                 <h2>Reviews</h2>
                 <div class="uk-grid">
                     <div class="uk-width-1-2">
-                        <div class="uk-panel uk-panel-box">
+                        <div class="uk-panel uk-panel-box uk-border-rounded" data-uk-scrollspy="{cls:'uk-animation-slide-top', repeat: true}">
                             <p>Best games Evah!</p>
                             <p><strong>- IGN</strong></p>
                         </div>
                     </div>
                     <div class="uk-width-1-2">
-                        <div class="uk-panel uk-panel-box">
+                        <div class="uk-panel uk-panel-box uk-border-rounded" data-uk-scrollspy="{cls:'uk-animation-slide-top', repeat: true}">
                             <p>Best games Evah!</p>
                             <p><strong>- IGN</strong></p>
                         </div>
                     </div>       
 
                     <div class="uk-width-1-2 uk-margin-top">
-                        <div class="uk-panel uk-panel-box">
+                        <div class="uk-panel uk-panel-box uk-border-rounded" data-uk-scrollspy="{cls:'uk-animation-slide-top', repeat: true}">
                             <p>Best games Evah!</p>
                             <p><strong>- IGN</strong></p>
                         </div>
                     </div>
                     <div class="uk-width-1-2 uk-margin-top">
-                        <div class="uk-panel uk-panel-box">
+                        <div class="uk-panel uk-panel-box uk-border-rounded" data-uk-scrollspy="{cls:'uk-animation-slide-top', repeat: true}">
                             <p>Best games Evah!</p>
                             <p><strong>- IGN</strong></p>
                         </div>
@@ -102,7 +112,7 @@
                 </div>
 
                 <div class="uk-width-1-6 uk-container-center uk-margin-top">
-                    <img src="images/footer_golden_frog.png" style="width: 150px" class="uk-align-center uk-margin-bottom-remove">
+                    <img src="images/footer_golden_frog.png" style="width: 150px" class="uk-align-center uk-margin-bottom-remove" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true}">
                 </div>
             </div>
         </div>
