@@ -1,0 +1,90 @@
+p, h2, h3, h4, h1{
+    font-family: 'Athiti', sans-serif;
+    color: #333333;
+}
+
+.block-1{
+    background-color: #F1ECC8;
+}
+
+.block-2{
+    background-color: #92D4BC;
+}
+
+.block-3{
+    background-color: #333333;
+    color: #fff;
+}
+
+.block-4{
+    background-color: #F1ECC8;
+}
+
+.block-3 h2{
+    color: #FDC721;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.block-3 p{
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.block-4 a{
+    display: block;
+    color: #333333;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.block-4 h2{
+    font-size: 36px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.golden-scroll-down{
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+#fp-nav.right ul li a span{
+    background: #FDC721;
+}
+
+#fp-nav.right ul li a span{
+    width: 0;
+    height: 0;
+}
+
+#fp-nav.right ul li a{
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    padding: 2px;
+}
+
+.golden-about-us{
+    margin-top: 50px;
+}
+
+.golden-about-us h2{
+    color: #FFFFFF;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.golden-about-us p{
+    color: #333;
+    font-size: 28px;
+}
+
+.golden-padding{
+    padding: 6%;
+}
+
+.golden-contact{
+    margin-bottom: 10%;
+}
