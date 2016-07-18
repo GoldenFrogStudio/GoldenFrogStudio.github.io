@@ -1,1 +1,1 @@
-<?php include_once("bbb/index.html"); ?>
+﻿<?php include_once("index.html"); ?>
