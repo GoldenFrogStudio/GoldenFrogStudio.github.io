@@ -1,0 +1,19 @@
+Developer: Golden Frog (goldenfrogstudios.com)
+Release Date: Nov. 2016
+Platforms: iOS, Android
+Website: goldenfrogstudios.com/bbb
+
+Bump Bump Bump, a minimalist puzzle about bumping into stuff.
+
+Solve a series of physic puzzles by placing bumpers to create a constant flow of bouncing pinballs around the level. Be aware though, how you solve a puzzle will affect the next one in the series, as every screen you see is connected to the other one forming a bigger, more complex level. Once you solve all the puzzles in a level, you get to see the whole sequence unfold and admire you wits and good work.
+
+- Free to play
+- Physics Puzzle game
+- 2 themes and more to come
+- More than 72 Puzzles and growing…
+- Connected Puzzles
+- Minimalistic Design
+- Make your own unique beats while you play
+- Multiple solutions
+
+More information: http://www.goldenfrogstudios.com/bbb/press

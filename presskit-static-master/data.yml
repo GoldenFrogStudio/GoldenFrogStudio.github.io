@@ -1,0 +1,128 @@
+developer: "Golden Frog"
+developer_location: "Colombia"
+developer_website: "http://goldenfrogstudios.com/"
+developer_about: |
+    **Boilerplate:**  
+    Golden Frog is a video game studio based in Medellín, Colombia. We love what we do and seek to produce quality experiences.
+    
+    **More information:**  
+    More information on Golden Frog is available [here](http://goldenfrogstudios.com/).
+socials:
+    - 
+        name: "twitter.com/goldenfroggames"
+        link: "twitter.com/goldenfroggames"
+    -
+        name: "facebook.com/goldenfrogstudios"
+        link: "facebook.com/goldenfrogstudios/"
+
+title: "Bump Bump Bump"
+release_date: "Nov, 2016"
+website: "goldenfrogstudios.com/bbb"
+zip: "bbb-presskit.zip"
+platforms:
+    -
+        name: "Apple App Store"
+        link: "https://itunes.apple.com/us/app/bump-bump-bump/id1150667378"
+    - 
+        name: "Google Play"
+        link: "https://play.google.com/store/apps/details?id=com.goldenfrog.bbb"
+prices: 
+    -
+        currency: USD
+        value: "Free"
+description: |
+   Solve a series of physics puzzles by placing bumpers to create a constant flow of bouncing pinballs around the level. 
+   Beware though, how you solve each puzzle will affect the next one in the series, as every screen you see is connected to the next one, forming a bigger, more complex level.
+   Once you solve all the puzzles in a level, you can see the whole sequence unfold and admire your wits and good work.
+#history: |
+#    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem dui, volutpat eu adipiscing sed, rutrum aliquam lacus.
+features: |
+    - "Free to play"
+    - "Physics Puzzle game"
+    - "2 themes and more to come"
+    - "More than 72 Puzzles and growing..."
+    - "Connected Puzzles"
+    - "Minimalistic Design"
+    - "Make your own unique beats while you play"
+#videos: 
+#    -
+#        name: "This video is nice"
+#        youtube: 7jQbITg0MSk
+#    -
+#        name: "This one too"
+#        youtube: 0CevOaYrYDA
+#        vimeo: 12536488
+#awards: 
+#    -
+#        description: "Winner in this highly relevant contest."
+#        info: "Award Location, 20 October, 1989"
+#    -
+#        description: "Nomination for this prestigious award."
+#        info: "Award Ceremony, 4 December, 1991"
+#    -
+#        description: "Winner in this highly relevant contest."
+#        info: "Award Location, 20 October, 1989"
+#    -
+#        description: "Nomination for this prestigious award."
+#        info: "Award Ceremony, 4 December, 1991"
+#quotes: 
+#    -
+#        name: "Person Name"
+#        description: "This is a rather insignificant quote by a highly important person."
+#        website: Website
+#        link: "http://www.website.com/"
+#    -
+#        name: "Some Guy"
+#        description: "An extremely positive quote from a rather insignificant person. Also great."
+#        website: "This Page Is Visited By 12 Visitors A Month"
+#        link: "http://geocities.blog.com/"
+#    -
+#        name: "Pretentious Bastard"
+#        description: "I pretend to love this game even though I do not actually understand it."
+#        website: "Artsy Page"
+#        link: "http://art.tumblr.com/"
+#    -
+#        name: "Caps Guy"
+#        description: "HOLY SHIT SO AMAZING"
+#        website: "Angry Review"
+#        link: "http://thispage.net/angrytube"
+"monetization_permission": monetize
+#additionals: 
+#    -
+#        title: "Company Link #1"
+#        description: "This link is a link that might be useful. You can check it out at"
+#        link: "http://somemusicsite.com/thislink"
+#credits: 
+#    -
+#        person: "John Doe"
+#        role: "Artist, Freelancer"
+#    -
+#        person: "Oliver Twist"
+#        website: "www.olivertwist.com"
+#        role: "Artist, Freelancer"
+#    -
+#        person: "Jane Doette"
+#        website: "www.olivertwist.com"
+#        role: "Music, Freelancer"
+contacts: 
+    -
+        name: Inquiries
+        mail: "contact@goldenfrogstudios.com"
+    -
+        name: Twitter
+        link: "http://twitter.com/goldenfroggames"
+    -
+        name: Facebook
+        link: "http://facebook.com/goldenfrogstudios"
+    -
+        name: Web
+        link: "goldenfrogstudios.com"
+screenshots: 4
+gifs: 0
+hero_images: 0
+logo:
+    - "logo_bumpbumpbump.png"
+icon:
+    - "icon-rounded.png"
+    - "icon-square.png"
+"google_analytics_id": UA-57530123-1
