@@ -30,7 +30,7 @@ html(lang='en')
             - if (data.features) pageNames.push('Features')
             - if (data.videos) pageNames.push('Videos')
             - if (data.screenshots) pageNames.push('Screenshots')
-            - if (data.logo) pageNames.push('Logo & Icon')
+            - if (data.icon) pageNames.push('Logo & Icon')
             - if (data.awards) pageNames.push('Awards & Recognition')
             - if (data.quotes) pageNames.push('Selected Articles')
             - if (data.additionals) pageNames.push('Additional Links')
@@ -163,12 +163,12 @@ html(lang='en')
                 - for (var i = 1; i <= data.gifs; i++)
                   .uk-width-medium-1-2
                     a(href= 'media/gif-' + i + '.png')
-                      img.lazy(src= 'images/blank.png', data-original='media/gif-' + i + '.gif')
+                      img.header(src= 'media/gif-' + i + '.gif')
                 - for (var i = 1; i <= data.screenshots; i++)
                   - var imagePath = 'media/screenshot-' + i + '.png'
                   .uk-width-medium-1-2
                     a(href= imagePath)
-                      img.lazy(src= 'images/blank.png', data-original= imagePath)
+                      img.header(src= imagePath)
               hr
 
           //--------------------------------------
@@ -181,24 +181,25 @@ html(lang='en')
                 - for (var i = 1; i <= data.hero_images; i++)
                   .uk-width-medium-1-2
                     a(href= 'media/hero-' + i + '.png')
-                      img.lazy(src= 'images/blank.png', data-original='media/hero-' + i + '.png')
+                      img.header(src= 'media/hero-' + i + '.png')
               hr
 
           //--------------------------------------
           // Logo & Icon
           //--------------------------------------
-          if data.logo
+          if data.icon
             #LogoIcon
               h2 Logo & Icon
               .uk-grid.images(data-uk-grid-margin)
-                for logo in data.logo
-                  .uk-width-medium-1-2
-                    a(href= 'media/' + logo)
-                      img.lazy(src= 'images/blank.png', data-original= 'media/' + logo)
+                if data.logo
+                   for logo in data.logo
+                     .uk-width-medium-1-2
+                       a(href= 'media/' + logo)
+                         img.header(src= 'media/' + logo)
                 for icon in data.icon
                   .uk-width-medium-1-2
                     a(href= 'media/' + icon)
-                      img.lazy(src= 'images/blank.png', data-original= 'media/' + icon)
+                      img.header(src= 'media/' + icon)
               hr
 
           //--------------------------------------
