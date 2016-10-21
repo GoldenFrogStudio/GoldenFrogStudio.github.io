@@ -26,10 +26,10 @@ platforms:
     - 
         name: "Google Play"
         link: "https://play.google.com/store/apps/details?id=com.goldenfrog.bbb"
-prices: 
-    -
-        currency: USD
-        value: "Free"
+#prices: 
+#    -
+#        currency: USD
+#        value: "Free"
 description: |
    Solve a series of physics puzzles by placing bumpers to create a constant flow of bouncing pinballs around the level. 
    Beware though, how you solve each puzzle will affect the next one in the series, as every screen you see is connected to the next one, forming a bigger, more complex level.
@@ -44,10 +44,10 @@ features: |
     - "Connected Puzzles"
     - "Minimalistic Design"
     - "Make your own unique beats while you play"
-#videos: 
-#    -
-#        name: "This video is nice"
-#        youtube: 7jQbITg0MSk
+videos: 
+   -
+       name: "Trailer"
+       youtube: ywH3Ni31cT4
 #    -
 #        name: "This one too"
 #        youtube: 0CevOaYrYDA
@@ -92,18 +92,22 @@ features: |
 #        title: "Company Link #1"
 #        description: "This link is a link that might be useful. You can check it out at"
 #        link: "http://somemusicsite.com/thislink"
-#credits: 
-#    -
-#        person: "John Doe"
-#        role: "Artist, Freelancer"
-#    -
-#        person: "Oliver Twist"
-#        website: "www.olivertwist.com"
-#        role: "Artist, Freelancer"
-#    -
-#        person: "Jane Doette"
-#        website: "www.olivertwist.com"
-#        role: "Music, Freelancer"
+credits: 
+    -
+        person: "Rodrigo Diaz"
+        role: "Project Lead"
+    -
+        person: "Luis Miguel Ponce de Leon"
+        role: "Developer"
+    -
+        person: "Juan Sebastian Valencia"
+        role: "Developer"
+    -
+        person: "Juan Pablo Diaz"
+        role: "Graphic Designer"
+    -
+        person: "Sebastian Schuth"
+        role: "Sound Designer"
 contacts: 
     -
         name: Inquiries
@@ -118,11 +122,11 @@ contacts:
         name: Web
         link: "goldenfrogstudios.com"
 screenshots: 4
-gifs: 0
-hero_images: 0
+#gifs: 0
+#hero_images: 0
 logo:
     - "logo_bumpbumpbump.png"
 icon:
     - "icon-rounded.png"
     - "icon-square.png"
-"google_analytics_id": UA-57530123-1
+"google_analytics_id": UA-80927359-1

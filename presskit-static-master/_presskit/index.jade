@@ -54,11 +54,11 @@ html(lang='en')
                 //- complicate the scrollspy js code.
                 if (pageNames[i] == 'About')
                   li
-                    a(href='#About', target=_self, id='m-About')
+                    a(href='#About', target='_blank', id='m-About')
                       = 'About ' + data.developer
                 else
                   li 
-                    a(href='#'+pageIDs[i], target=_self, id='m-'+pageIDs[i])
+                    a(href='#'+pageIDs[i], target='_blank', id='m-'+pageIDs[i])
                       = pageNames[i]
         #content.uk-width-medium-3-4
           img.header(src='images/header.png')
@@ -73,7 +73,7 @@ html(lang='en')
                   p
                     strong Developer:
                     br
-                    a(href= data['developer_website'])= data.developer
+                    a(href= data['developer_website'], target='_blank')= data.developer
                 if data.release_date
                   p
                     strong Release Date:
@@ -85,14 +85,14 @@ html(lang='en')
                     for platform in data.platforms
                       br
                       if (platform.link)
-                        a(href= platform.link)= platform.name
+                        a(href= platform.link, target='_blank')= platform.name
                       else
                         = platform.name
                 if data.website
                   p
                     strong Website:
                     br
-                    a(href= 'http://' + data.website)= data.website
+                    a(href= 'http://' + data.website, target='_blank')= data.website
                 if data.prices
                   p
                     strong Regular Price
@@ -160,7 +160,7 @@ html(lang='en')
             #Screenshots
               h2 Screenshots
               .uk-grid.images(data-uk-grid-margin)
-                - for (var i = 1; i <= 4; i++)
+                - for (var i = 1; i <= data.gifs; i++)
                   .uk-width-medium-1-2
                     a(href= 'media/gif-' + i + '.png')
                       img.lazy(src= 'images/blank.png', data-original='media/gif-' + i + '.gif')
@@ -276,7 +276,7 @@ html(lang='en')
                   strong= contact.name
                   if contact.link
                     br
-                    a(href= contact.link)= contact.link
+                    a(href= contact.link, target='_blank')= contact.link
                   if contact.mail
                     br
                     a(href= 'mailto:' + contact.mail)= contact.mail
@@ -305,7 +305,7 @@ html(lang='en')
               which is based on [presskit()](http://dopresskit.com).
             p
               = '© ' + new Date().getFullYear() + ' '
-              a(href= data.developer_website)=  data.developer
+              a(href= data.developer_website, target='_top')=  data.developer
               = '.'
 
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js')

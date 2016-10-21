@@ -3,6 +3,7 @@ module.exports = function(grunt) {
   var globalConfig = {
     src: '_presskit',
     dest: 'presskit',
+    data: grunt.file.readYAML('data.yml'),
   };
 
   grunt.initConfig({
