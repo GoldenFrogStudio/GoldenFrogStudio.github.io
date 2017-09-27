@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "MBE-Prototype.data.unityweb",
+"asmCodeUrl": "MBE-Prototype.asm.code.unityweb",
+"asmMemoryUrl": "MBE-Prototype.asm.memory.unityweb",
+"asmFrameworkUrl": "MBE-Prototype.asm.framework.unityweb",
+"splashScreenStyle": "Light",
+"backgroundColor": "#F0EDC0"
+}
